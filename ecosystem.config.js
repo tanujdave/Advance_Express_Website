@@ -11,9 +11,9 @@ module.exports = {
   deploy: {
     "production" : {
         "user" : "ubuntu",
-        "host" : "18.207.1.22",
+        "host" : "54.227.125.123",
         "ref"  : "origin/master",
-        "repo" : "https://github.com/webdevjourneyWDJ/Advanced_Express_Website.git",
+        "repo" : "https://github.com/tanujdave/Advance_Express_Website.git",
         "path" : "/home/ubuntu/deploy",
         "pre-setup" : "pwd",
         "pre-deploy-local" : "echo 'This is a local executed command'",
